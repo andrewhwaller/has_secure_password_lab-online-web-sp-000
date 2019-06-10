@@ -9,7 +9,6 @@ class UsersController < ApplicationController
     redirect_to controller: 'welcome', action: 'home'
   end
 
-
   private
 
   def user_params
